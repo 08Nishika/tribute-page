@@ -1,0 +1,25 @@
+body{
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+   background-image:-webkit-linear-gradient(black,yellow) ;
+    border-image: url('download.jpg');
+    border-image-slice :50px;
+
+}
+.head{
+    display: flex;
+    flex-direction: row;
+}
+.ssr{
+   flex-basis:auto;
+}
+.ssr img{
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 200px;
+    border: 2px solid black;
+    box-shadow: 0 0 10px 10px black;
+}
+
